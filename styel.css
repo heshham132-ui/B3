@@ -1,0 +1,126 @@
+/* إعدادات عامة لتصفير الهوامش */
+
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* تنسيق قسم الـ Hero الخلفية وطبقات الـ Gradient */
+
+.hero-section{
+
+width: 100%;
+min-height: 100vh;
+text-align: center;
+padding: 180px 20px;
+background-image: 
+        linear-gradient(135deg, rgba(92, 130, 219, 0.85), rgba(47, 87, 150, 0.75)), 
+        url('B3.jpg');
+        
+background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+
+}
+/* حاوية المحتوى لتوسيط النصوص فوق الخلفية */
+
+.hero-content{
+max-width: 800px;
+margin: 0 auto;             
+ min-width: 280px;
+min-height: 270px;
+    padding: 40px 30px;         
+    z-index: 2;
+}
+
+/* ١. شارة صغيرة فوق العنوان */
+
+.hero-badge{background-color: rgb(82, 82, 165);
+
+color: rgb(100, 196, 196);
+
+padding: 8px 20px;
+border: radius: 50px;
+font: size 18px;
+font-weight: 500px;
+margin-bottom: 20px;
+border: 1px solid rgba(59, 130, 246, 0.4);
+
+}
+/* ٢. العنوان الرئيسي */
+.hero-title{
+font-family: 'Cairo', sans-serif;
+font-size: 48px;
+font-weight: 500;
+color: rgb(185, 156, 117);
+margin: bottom 20px;;
+line-height: 1.2;
+word-spacing: normal;
+
+}
+
+/* ٣. الوصف تحت العنوان */
+
+.hero-description {
+font: size 20px; ;
+font-weight: 300;
+color: rgb(179, 202, 194);
+margin-bottom: 35px;
+line-height: 1.6;
+word-spacing: normal;
+}
+
+/* 4. الأزرار */
+
+.hero-buttons {
+margin-bottom: 8px;
+
+}
+
+.btn-primary{
+
+border: 8px;
+text-decoration: none;
+border: 2px solid #ac8b8b;
+
+}
+
+.btn-primary:hover{
+
+    color: aqua;
+
+}
+.btn-secondary {
+
+
+border: 2px solid #ac8b8b;
+text-decoration: none;
+
+
+}
+
+.btn-secondary:hover{
+
+color: rgb(193, 205, 215);
+}
+/* الإحصائية الإضافية الاختيارية */
+
+.hero-stats{
+
+font-family: 'Tajawal', sans-serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    word: spacing: 25px; ; 
+
+}
+
+
+
+
+
